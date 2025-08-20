@@ -32,7 +32,7 @@
       transition: 0.3s;
       display: flex;
       align-items: center;
-      gap: 10px; /* المسافة بين النص والإيموجي */
+      gap: 10px;
     }
 
     .discord-btn:hover {
@@ -45,19 +45,21 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
-      background: rgba(0, 0, 0, 0.5);
+      min-height: 100vh;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
     }
 
     h2 {
-      margin: 10px 0 5px 0;
+      margin: 15px 0 10px;
+      font-size: 22px;
     }
 
     .btn {
-      display: inline-flex; /* لتتمكن من وضع الإيموجي بجانب النص */
+      display: inline-flex;
       align-items: center;
       gap: 10px;
-      margin: 10px 0 30px 0;
+      margin: 10px 0 30px;
       padding: 15px 30px;
       font-size: 18px;
       font-weight: bold;
@@ -72,39 +74,39 @@
     }
 
     .btn:hover {
-      background: #05c515;
+      background: #06a014;
       box-shadow: 0 0 25px #05c515;
     }
 
     .discord-img {
-      width: 35px; /* حجم أكبر للإيموجي */
+      width: 35px;
       height: 35px;
     }
 
     .btn-img {
-      width: 25px; /* حجم الإيموجي لزر التحميل */
+      width: 25px;
       height: 25px;
     }
   </style>
 </head>
 <body>
-  <!-- زر الديسكورد مع الإيموجي -->
+  <!-- زر الديسكورد -->
   <a href="https://discord.gg/tEsMckCzwQ" target="_blank" class="discord-btn">
     <img src="dis.gif" alt="emoji" class="discord-img">
     Discord
   </a>
 
   <div class="container">
-    <h2>اضغط على تحميل ماين كرافت البيدروك اخر اصدار ✅</h2>
-    <a href="minecraft-1-21-94-01-weber.apk" download class="btn">
+    <h2>تحميل ماين كرافت بيدروك آخر إصدار ✅</h2>
+    <a href="https://drive.google.com/file/d/ID_APK/view?usp=sharing" target="_blank" class="btn">
       <img src="min.png" alt="emoji" class="btn-img">
-      تحميل ماين كرافت للجوال 📱
+      تحميل للجوال 📱
     </a>
 
-    <h2>اضغط على تحميل ماين كرافت الجافا اخر اصدار ✅</h2>
-    <a href="TLauncher-Installer-1.8.9.exe" download class="btn">
+    <h2>تحميل ماين كرافت جافا آخر إصدار ✅</h2>
+    <a href="https://drive.google.com/file/d/ID_EXE/view?usp=sharing" target="_blank" class="btn">
       <img src="min.png" alt="emoji" class="btn-img">
-      تحميل ماين كرافت للكمبيوتر 🖥️
+      تحميل للكمبيوتر 🖥️
     </a>
   </div>
 </body>
